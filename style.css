@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lora&family=Slabo+27px&display=swap");
+
+.navbar-brand {
+  font-weight: 600;
+  font-family: "Bonheur Royale", cursive;
+  word-spacing: 0.3rem;
+  font-size: 2rem;
+}
+.navbar,
+.top {
+  background-color: #000;
+}
+.nav-link {
+  /* color: white !important; */
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: black !important;
+}
+.nav-link:active {
+  color: black !important;
+}
+.nav-item {
+  display: inline-block;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #f85034;
+  font-weight: 500;
+  clip-path: polygon(0 14%, 75% 14%, 100% 48%, 74% 85%, 0 85%);
+  /* border: 1px solid black; */
+  margin-left: 20px;
+}
+.icon {
+  animation: anime 1s linear infinite;
+}
+@keyframes anime {
+  to {
+    transform: rotateZ(0deg);
+  }
+  from {
+    transform: rotateZ(360deg);
+  }
+}
+.vedio {
+  border: 5px solid black;
+}
+.bg {
+  background-image: url("bgimg.jpg");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+.heading {
+  font-weight: 900;
+  color: blue;
+  margin-top: 60px;
+  font-family: "Lora", serif;
+}
+.bio {
+  font-family: "Slabo 27px", serif;
+  word-spacing: 0.2rem;
+}
+.testi-content {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.img {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.countdown {
+  width: 100%;
+}
+.hour,
+.minute,
+.seconds {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Lora", serif;
+  flex-direction: column;
+}
+.career
+{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
+}
